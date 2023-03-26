@@ -1,0 +1,7 @@
+google-cloud-bigquery
+pandas
+db-dtypes
+pyodbc
+dbt-sqlserver
+python-dotenv
+sqlalchemy
