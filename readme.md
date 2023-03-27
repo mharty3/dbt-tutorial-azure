@@ -25,3 +25,7 @@ set up dbt project:
 
 perform first dbt run:
 * run `dbt run` to create models in azure sql database
+
+install dbt power user extension in vs code:
+* to make the query results preview work with azure sql syntax, change the `Dbt: Query Template` setting for the extention to `{query} order by 1 OFFSET 0 ROWS FETCH FIRST {limit} ROWS ONLY`
+* https://github.com/innoverio/vscode-dbt-power-user/blob/master/README.md#dbtquerytemplate-for-ms-sql
